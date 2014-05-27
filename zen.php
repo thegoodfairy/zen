@@ -312,8 +312,6 @@ if ($numberofcertificateids == 4){$coursecertificatecount = $coursecertificateco
 
 if ($numberofcertificateids == 5){$coursecertificatecount = $coursecertificatecount-1;$coursecertificatecount = ceil($coursecertificatecount/4);}
 
-if ($coursecertificatecount == -0){$coursecertificatecount = 0;}
-
 if ($coursecertificatecount > $numberofcertificateids){$coursecertificatecount = $numberofcertificateids;}
 
 //if (($numberofcertificateids == 1) or ($numberofcertificateids == 2)){$coursecertificatecount = $coursecertificatecount-1;}
@@ -332,7 +330,7 @@ $numberofcertificateids = 0;
 $coursecertificatecount = 0;
 $numberofcertificateids = 0;
         
-   	} //end courses for this user
+   	} //end users in range
    	
 	
 	//These cases will need to include certificate numbers for each course 
